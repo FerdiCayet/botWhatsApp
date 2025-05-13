@@ -1,0 +1,20 @@
+{
+    "name": "botwhatsapp",
+    "version": "1.0.0",
+    "description": "Bot automatizado para WhatsApp com wppconnect, oferecendo comandos como transcrição de áudio, geração de figurinhas, tradução, interação com IA e mais.",
+    "main": "botWhatsApp.js",
+    "scripts": {
+        "start": "node botWhatsApp.js"
+    },
+    "keywords": [],
+    "author": "Fernando Caetano",
+    "license": "ISC",
+    "dependencies": {
+        "@distube/ytdl-core": "^4.16.10",
+        "@wppconnect-team/wppconnect": "^1.37.1",
+        "dotenv": "^16.5.0",
+        "fluent-ffmpeg": "^2.1.3",
+        "probe-image-size": "^7.2.3",
+        "vosk": "^0.3.39"
+    }
+}
